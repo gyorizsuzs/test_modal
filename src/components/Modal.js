@@ -1,7 +1,5 @@
 import { useState } from "react";
-import MealList from "../meal_list/MealList";
-
-import "./modal.scss";
+import MealList from "./MealList";
 
 const Modal = () => {
   const [mealPlan, setMealPlan] = useState(null);
