@@ -21,6 +21,12 @@ const Modal = () => {
       });
   }
 
+  /*   let datePickerComponent = function () {
+    return `
+      <input type="date" id="date">
+    `;
+  }; */
+
   function handleChange(event) {
     setCalories(event.target.value);
   }
